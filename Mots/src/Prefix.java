@@ -2,7 +2,7 @@
 public class Prefix {
 
 	public static String transform(String s) {
-		String res = "toto" + ;
+		String res = "toto" + s;
 		return res;
 	}
 }
