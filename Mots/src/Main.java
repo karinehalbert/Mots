@@ -2,8 +2,11 @@
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		String test = "test";
+		System.out.println("Test sufix : "+Sufix.transform(test));
+		System.out.println("Test prefix : "+Prefix.transform(test));
+		System.out.println("Test maj : "+Maj.transform(test));
 	}
 
 }
